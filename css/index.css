@@ -1,0 +1,71 @@
+.activity {
+    display: flex;
+    justify-content: center;
+}
+
+.activity .describe {
+    margin-left: 10%;
+}
+
+.ui-listview>li p {
+    margin: 4px 0;
+}
+
+.activity img {
+    width: 100px;
+    height: 100px;
+}
+
+#search-box div {
+    display: inline-block;
+}
+
+#search-box .left {
+    width: 60%;
+}
+
+#search-box .right {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info p {
+    margin: 10px;
+}
+
+#sign {
+    margin: 10px 0 20px 0;
+}
+
+.detail {
+    border: 1px solid rgb(228, 228, 228);
+    padding: 8px;
+    border-radius: 5px;
+    text-indent: 2em;
+}
+
+.ui-content .ui-listview,
+.ui-panel-inner>.ui-listview {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mine {
+    display: flex;
+    align-items: center;
+}
+
+.head img {
+    width: 60px;
+    height: 60px;
+}
+
+.head + div {
+    margin-left: 20px;
+}

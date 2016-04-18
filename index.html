@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>lide Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 引入 jQuery Mobile 样式 -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div data-role="page" id="pageindex">
+        <div data-role="header" class="ui-content">
+            <form action="#" method="post">
+                <fieldset data-role="controlgroup" data-type="horizontal">
+                    <legend class="ui-hidden-accessible">学校</legend>
+                    <label for="city">城市</label>
+                    <select name="city" id="city" data-native-menu="false">
+                        <option value="北京">北京</option>
+                        <option value="上海">上海</option>
+                    </select>
+                    <label for="school">学校</label>
+                    <select name="school" id="school" data-native-menu="true">
+                        <option value="北京邮电大学">北京邮电大学</option>
+                        <option value="北京大学">北京大学</option>
+                    </select>
+                </fieldset>
+                <div id="search-box">
+                    <div class="left">
+                        <label for="search" class="ui-hidden-accessible">搜索</label>
+                        <input type="search" name="search" id="search" placeholder="输入标题">
+                    </div>
+                    <div class="right">
+                        <input type="submit" value="搜索">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div data-role="main" class="ui-content">
+            <ul data-role="listview" data-inset="false" id="list">
+                <li>
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p>标题：<a href="#" data-id="1">篮球比赛</a></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p>标题：<a href="#">篮球比赛</a></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p>标题：<a href="#">篮球比赛</a></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p>标题：<a href="#">篮球比赛</a></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="backHome">活动</a></li>
+                    <li><a href="#" class="backMine">我</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="pagedetail">
+        <div data-role="header">
+            <a href="#" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all" data-rel="back">返回</a>
+            <h1>活动详情</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="info">
+                <h2>标题&nbsp; 篮球赛</h2>
+                <p>时间：2016.4.9 18:00~20:00</p>
+                <p>地点：北京航天航空大学体育场</p>
+                <p>城市：北京 &nbsp;&nbsp;招募观众：100人</p>
+            </div>
+            <a href="#" id="sign" class="ui-btn ui-corner-all ui-shadow" data-transition="slidefade">报名</a>
+            <div class="detail">
+                百度（Nasdaq：BIDU）是全球最大的中文搜索引擎、最大的中文网站。2000年1月由李彦宏创立于北京中关村，致力于向人们提供“简单，可依赖”的信息获取方式。“百度”二字源于中国宋朝词人辛弃疾的《青玉案·元夕》词句“众里寻他千百度”，象征着百度对中文信息检索技术的执著追求。
+            </div>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="backHome">活动</a></li>
+                    <li><a href="#" class="backMine">我</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="pagesign">
+        <div data-role="header">
+            <a href="#" class="ui-btn ui-icon-arrow-l ui-btn-icon-notext ui-corner-all" data-rel="back" data-direction="reverse">返回</a>
+            <h1>活动报名</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <form action="#" method="post">
+                <div class="ui-field-contain">
+                    <label for="name">姓名：</label>
+                    <input type="text" name="name" id="name" required data-clear-btn="true">
+                    <label for="telephone">电话：</label>
+                    <input type="text" name="telephone" id="telephone" required data-clear-btn="true">
+                    <label for="number">人数：</label>
+                    <input type="text" name="number" id="number" required data-clear-btn="true">
+                    <label for="school">学校：</label>
+                    <input type="text" name="school" id="school">
+                    <label for="msg">留言：</label>
+                    <textarea name="msg" id="msg"></textarea>
+                    <div class="submit">
+                        <input type="submit" value="提交">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="backHome">活动</a></li>
+                    <li><a href="#" class="backMine">我</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-role="page" id="pagemine">
+        <div data-role="header" class="ui-content">
+           <div class="mine">
+                <div class="head"><img src="img/head.jpg" alt="头像"></div>
+                <div>
+                    瘦马难寻<br/>
+                    <small style="color: #BDB8B8">微信号：xxxxxxx</small>
+                </div>
+            </div>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div style="margin-bottom: 10px">我参加的活动</div>
+            <ul data-role="listview" data-inset="false" id="list">
+                <li>
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p>标题：<a href="#" data-id="1">篮球比赛</a></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="activity">
+                        <img src="img/plane.jpg" alt="plane">
+                        <div class="describe">
+                            <p>标题：<a href="#">篮球比赛</a></p>
+                            <p>类型：体育竞技</p>
+                            <p>时间：2016.4.9 18:00~20:00</p>
+                            <p>地点：体育场</p>
+                            <p>学校：北京邮电大学</p>
+                            <p>城市：北京</p>
+                            <p>招募：100人观众</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="backHome">活动</a></li>
+                    <li><a href="#" class="backMine">我</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(document).bind('mobileinit', function() {
+        $.mobile.pushStateEnabled = false;
+    });
+    </script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script>
+    $(document).on("pageinit", function() {
+        $("#list a").on("click", function() {
+            console.log($(this).attr("data-id"));
+            $.mobile.loading("show");
+            $.mobile.changePage("#pagedetail");
+            $.mobile.loading("hide");
+        });
+
+        $("#sign").on("click", function() {
+            $.mobile.changePage("#pagesign");
+        });
+
+        $(".backHome").on("click", function() {
+            $.mobile.changePage("#pageindex");
+        });
+        $(".backMine").on("click", function() {
+            $.mobile.changePage("#pagemine");
+        });
+
+    });
+    </script>
+</body>
+
+</html>
